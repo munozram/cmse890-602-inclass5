@@ -1,4 +1,4 @@
-def reverse_string(mystring):
+def reverse_string(mystring  ):
     """
     Reverses the ordering of characters in a string using a simple loop.
     Input: a string.
@@ -10,8 +10,7 @@ def reverse_string(mystring):
     if len(mystring) == 0:
         return []
 
-    # BUG: the 0 in the range() method should be -1, given how range() works!
-    for i in range(len(mystring) - 1, 0, -1):
+    for i in range(len(mystring) - 1, -1, -1):
         reversed_string += mystring[i]
 
     return reversed_string
