@@ -1,10 +1,3 @@
-'''
-Simple (broken) program to reverse a string.  Look for 'BUG' to find the bug.
-
-Takes in a string of arbitrary (but assumed to be non-zero) length; returns a 
-string of the same length, but reversed.
-'''
-
 def reverse_string(mystring  ):
     '''
     Reverses the ordering of characters in a string using a simple loop.
